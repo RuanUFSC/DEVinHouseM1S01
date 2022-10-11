@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    min-height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:rgb(42, 165, 161);
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/white-cloud-sky-background_74190-4646.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 14px;
+}
+
+#avancar {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+#imagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe {
+    width: 500px;
+    height: calc(500px * 2 / 3);
+}
+
+nav img {
+    width: 30px;
+}
+
+#logo {
+    flex-grow: 1;
+}
+
+nav {
+    padding: 0 20px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(205, 242, 255);
+  }
+
+  .links a {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    transition: all 300ms;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .links a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 198, 246);
+  }
+
+  footer {
+    background-color: rgb(205, 242, 255);
+    text-align: center;
+  }
+
+  main {
+    text-align: center;
+  }
